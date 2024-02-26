@@ -1,4 +1,4 @@
-public class Main {
+public class ex01 {
     public static void main(String[] args) {
         // Character
         String name = "Alexia";
