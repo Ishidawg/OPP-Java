@@ -1,2 +1,8 @@
-./out
-./.idea
+# IDE shit
+.idea
+
+# out shit (IDE)
+out
+
+#file extensions
+*.iml
