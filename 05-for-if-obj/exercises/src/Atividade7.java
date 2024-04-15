@@ -1,5 +1,4 @@
 import Atividade07ClassesObjetos.Products;
-import java.util.Scanner;
 
 public class Atividade7 {
     public static void main(String[] args) {
