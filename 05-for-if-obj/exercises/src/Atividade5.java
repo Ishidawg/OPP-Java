@@ -34,12 +34,6 @@ public class Atividade5 {
         // Identify Car
         System.out.println(palio.model);
         testPalio.testBrake();
-
-
-
-
-
-
     }
 }
 
