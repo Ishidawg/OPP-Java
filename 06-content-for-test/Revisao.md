@@ -15,8 +15,15 @@ Sempre que você tiver uma classe, ela terá objetos. São duas coisas estritame
 
 ## Qual é a importância dos construtores e métodos em uma classe em programação orientada a objetos?
 
-**Construtores:** O java por padrão, cria um **construtor Default** quando instanciámos uma Classe, porém ele não nos fornece a capacidade de usar os atributos dessa Classe, por isso precisamos fazer um construtor que nos permite acessar os atributos de forma direta (utilizando o **this.atributo**). Logo os construtores (de forma rasa) são importantes para que as classes sejam **modulares, flexíveis e principalmente, úteis.**
-**Métodos:** Os métodos ou funções, são basicamente as **ações que a nossa classe pode executar**, como numa Classe de Humano, as funções seriam infinitas, mas como algo básico eu posso citar: Andar, Correr, Sentar, Falar...
+ - **Construtores:** O java por padrão, cria um **construtor Default** quando instanciámos uma Classe, porém ele não nos fornece a
+   capacidade de usar os atributos dessa Classe, por isso precisamos
+   fazer um construtor que nos permite acessar os atributos de forma
+   direta (utilizando o **this.atributo**). Logo os construtores (de
+   forma rasa) são importantes para que as classes sejam **modulares,
+   flexíveis e principalmente, úteis.**
+ - **Métodos:** Os métodos ou funções, são basicamente as **ações que a nossa classe pode executar**, como numa Classe de Humano, as funções
+   seriam infinitas, mas como algo básico eu posso citar: Andar, Correr,
+   Sentar, Falar...
 
 ## Quais são as diferenças entre métodos estáticos e métodos de instância em uma classe?
 Em resumo, os métodos de instância, são funções que **necessitam da Classe em questão, instanciada**, para que sejam usados. Já um método estático, ele **independe da classe instanciada, você pode apenas chamar a função** em questão, utilizando o nome da Classe.
@@ -33,9 +40,13 @@ Normalmente se faz por meio do construtor, mas aí depende aonde você tá quere
 
 ## Qual é a diferença entre os modificadores de acesso "public", "private" e "protected" em uma classe?
 Por serem modificares de acessos, como o nome diz, vai modificar como e quem pode os acessar (dependendo até quando).
-**public:** são públicos, acabou - não brincadeira - basicamente significa que os métodos, atributos e afins public, **podem ser acessados de qualquer outro pacote ou classe.**
-**private:** significa que os métodos, atributos e afins, são acessados apenas dentro da própria classe.
-**protected:** é um meio termo do public e do private, significa que seus métodos, atributos e afins, podem ser acessados pela mesma classe, pacotes e subclasses, ainda assim, sendo mais restritivo que o public.
+
+ - **public:** são públicos, acabou - não brincadeira - basicamente significa que os métodos, atributos e afins public, **podem ser
+   acessados de qualquer outro pacote ou classe.**
+ - **private:** significa que os métodos, atributos e afins, são acessados apenas dentro da própria classe.
+ - **protected:** é um meio termo do public e do private, significa que seus métodos, atributos e afins, podem ser acessados pela mesma.
+   classe, pacotes e subclasses, ainda assim, sendo mais restritivo que
+   o public.
 
 ## Qual é a importância da palavra-chave "this" em programação orientada a objetos e como ela é utilizada?
 Existem explicações complexas e tal, mas o que eu entendi foi: ela permite que você referencie a instância um atributo, como por exemplo, se ao instanciar uma classe onde o construtor não tem o this.atributo, quando tentamos acessar seu valor, ele vai retornar Null, porém ao usarmos this e permitir que esse atributo seja  referenciado na instância no objeto, assim ele consegue acessar o valor do atributo.
